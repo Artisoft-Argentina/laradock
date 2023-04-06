@@ -367,6 +367,8 @@ services:
         - "dockerhost:${DOCKER_HOST_IP}"
       networks:
         - backend
+      ports:
+        - "6001:6001"
 ### Laravel Horizon ############################################
     laravel-horizon:
       build:

@@ -574,3 +574,6 @@ RUN rm /var/cache/apk/* \
   && mkdir -p /var/www
 
 WORKDIR /etc/supervisor/conf.d/
+
+#laravel-websockets
+EXPOSE 6001
